@@ -28,8 +28,8 @@ console.log(content);
 
  //ii. Display all child elements of “main-content” element.
 
- var child_Elements = mainContent.children
- console.log(child_Elements);
+ //var child_Elements = mainContent.children
+ //console.log(child_Elements);
 
  //iii. Get all elements of class “render” and show their innerHTML  in browser.
 
