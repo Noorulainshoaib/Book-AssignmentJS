@@ -57,7 +57,7 @@ firstName.value = "John";
 //i. What is node type of element having id “form-content”.
 
 var formContentElement = document.getElementById('form-contevar');
-console.log(formContentElement.nodeType); // Output: 1
+console.log(formContentElement.nodeType); 
 
 //ii. Show node type of element having id “lastName” and its child node.
 
@@ -69,7 +69,7 @@ console.log(lastNameElement.firstChild)
 console.log(lastNameChildNodeType);
 //iii. Update child node of element having id “lastName”.
 
-lastNameElement.firstChild.nodeValue = " new value"
+lastNameElement.firstChild.nodeValue = "New Value"
 
 
 //iv. Get First and last child of id “main-content”.
