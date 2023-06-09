@@ -80,11 +80,6 @@ var obtainedMarks3 = parseInt(prompt("Enter The Obtained Marks for " + subject3 
 var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
 var percentage = (totalObtainedMarks / (3 * totalMarks)) * 100;
 
-document.write("<table>");
-document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
-document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks1 + "</td></tr>");
-document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks2 + "</td></tr>");
-document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks3 + "</td></tr>");
+
 document.write("<tr><td>Total</td><td>" + (3 * totalMarks) + "</td><td>" + totalObtainedMarks + "</td></tr>");
 document.write("<tr><td>Percentage</td><td colspan='2'>" + percentage.toFixed(2) + "%</td></tr>");
-document.write("</table>");
