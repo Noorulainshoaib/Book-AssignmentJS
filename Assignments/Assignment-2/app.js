@@ -20,10 +20,10 @@ alert(message);
 
 //Q-4  Write a script to save student’s bio data in JS variables and show the data in alert boxes.
 
-var Name= prompt("Ënter your Name");
-var age= prompt("Enter your age");
-var education=prompt ("Enter your education");
-alert(Name + age + education);
+var Name= prompt("Ënter Your Name");
+var age= prompt("Enter Your Age");
+var education=prompt ("Enter Your Education");
+alert( Name +    age +   education);
 
 
 //Q-5 Write a script to display the following alert using one JS variable: 
@@ -36,7 +36,7 @@ alert(one);
 //string concatenation
 
 var email = "ulainn400@gmail.com";
-alert( "My Email Address Is "  +  email);
+alert( "My Email Address Is :"  +  email);
 
 //Q-7 Declare a variable called book & give it the value “Asmarter way to learn JavaScript”. Display the following
 //message in an alert box
