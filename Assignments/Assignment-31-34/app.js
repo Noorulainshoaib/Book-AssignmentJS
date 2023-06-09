@@ -4,8 +4,10 @@
 
 document.write("<h3>Task-1</h3>");
 
-var currentDate = new Date();
-document.write(currentDate);
+var date = new Date();
+var month = date.getMonth();
+console.log(month);
+
 
 //Q-2 Write a program that alerts the current month in words. 
 //For example December
