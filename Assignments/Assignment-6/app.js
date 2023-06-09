@@ -81,5 +81,5 @@ var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
 var percentage = (totalObtainedMarks / (3 * totalMarks)) * 100;
 
 
-document.write("Total" + (3 * totalMarks) +  totalObtainedMarks );
+
 document.write("Percentage" + percentage.toFixed(2) + "%");
