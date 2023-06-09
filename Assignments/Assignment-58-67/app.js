@@ -60,13 +60,8 @@ var formContentElement = document.getElementById('form-contevar');
 console.log(formContentElement.nodeType); 
 
 //ii. Show node type of element having id “lastName” and its child node.
-
-var lastNameElement = document.getElementById('lastName');
-var lastNameNodeType = lastNameElement.nodeType;
-console.log(lastNameNodeType)
-var lastNameChildNodeType = lastNameElement.firstChild.nodeType;
-console.log(lastNameElement.firstChild)
-console.log(lastNameChildNodeType);
+ 
+Console.log(mainContent.childNodes);
 //iii. Update child node of element having id “lastName”.
 
 lastNameElement.firstChild.nodeValue = "New Value"
@@ -94,4 +89,4 @@ var emailElement = document.getElementById('email');
 var emailParentNode = emailElement.parentNode;
 console.log(emailParentNode)
 var emailNodeType = emailElement.nodeType;
-console.log(emailNodeType)
+console.log(emailNodeType);
