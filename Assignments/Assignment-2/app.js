@@ -23,9 +23,8 @@ alert(message);
 var Name= prompt("Ënter your Name");
 var age= prompt("Enter your age");
 var education=prompt ("Enter your education");
-alert(Name);
-alert(age);
-alert(education);
+alert(Name + age + education);
+
 
 //Q-5 Write a script to display the following alert using one JS variable: 
 var one= "PIZZA\nPIZZ\nPIZ\nPI\nP";
